@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farhan Sadeek</title>
+  <link rel="icon" href="assets\fav-icon.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css">
+</head>
+
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Farhan Sadeek </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Farhan Sadeek</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+        <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Profile -->
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.png" alt="Farhan Sadeek profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Farhan Sadeek</h1>
+      <p class="section__text__p2">Computer Science Student <br>Student Software Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1mBAOukgQUXb70JvtGV7dzMwMUZt_CFnE/view')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <a href="https://www.linkedin.com/in/farhansadeekde110/" target="_blank">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" target='_blank' />
+        </a>
+
+        <a href="https://github.com/SadeekFarhan21" target="_blank">
+          <img src="./assets/github.png" alt="My GitHub profile" class="icon" target='_blank' />
+        </a>
+      </div>
+    </div>
+  </section>
+  <!--- About -->
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/skills.png" alt="Skills icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years <br />Software Development </br> Data Science</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>B.Sc. Bachelors Degree<br />
+              Computer Science</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>Hello, I'm <b>Farhan Sadeek</b>, currently pursuing a Bachelor of Science in <b>Computer Science</b>. My
+            passion
+            lies in the dynamic realms of <b>Software Development</b>, <b>Machine Learning</b>, and <b>Artificial
+              Intelligence</b>. As an
+            active member of the <b>AI Club</b> and enthusiastic participant in <b>competitive programming</b>, I thrive
+            on exploring
+            innovative solutions to complex challenges. My academic journey is marked by a dedication to understanding
+            the intricacies
+            of computer science and applying theoretical knowledge to real-world scenarios.
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+
+  <!-- Experience -->
+  <section id="experience">
+    <p class="section__text__p1">Professional Journey</p>
+    <h1 class="title">Experience</h1>
+
+    <div class="experience-container">
+      <h2 class="experience-sub-title">
+        Undergraduate Research Assistant
+        <span class="experience-duration">November 2023 - Present</span>
+      </h2>
+      <p class="experience-company">The Ohio State University</p>
+      <p class="experience-description">
+        I will be working on a research project on the impact of U.S. natural disasters on individuals with diverse
+        identities, advised by Dr. Kelsea Best. Using <b>Python (pandas, matplotlib)</b> and <b>R (Tidyverse, ggplot2)
+        </b> for data visualization, I will be attending weekly Zoom meetings to report updates and deliver
+        presentations.
+      </p>
+
+      <h2 class="experience-sub-title">
+        Technical Analyst
+        <span class="experience-duration">June 2023 - Present</span>
+      </h2>
+      <p class="experience-company">Spectrum</p>
+      <p class="experience-description">
+        I collaboratively resolved complex issues cross-functionally, leveraging <b>statistical methodologies</b> that
+        led to a <b>15% improvement </b>in team satisfaction. Additionally, I demonstrated advanced research knowledge,
+        consistently exceeding targets and achieving a <b>10% increase</b> in project milestones and academic standards
+        through rigorous <b>statistical analysis</b>.
+      </p>
+      <h2 class="experience-sub-title">
+        Data Analyst
+        <span class="experience-duration">August 2021 - Present</span>
+      </h2>
+      <p class="experience-company">Google AI</p>
+      <p class="experience-description">
+        I leveraged my expertise in Kaggle datasets to analyze and extract valuable insights, driving <b>data-driven
+          decision-making</b> and enhancing business performance. Through developing and implementing advanced machine
+        learning models and algorithms, I achieved a <b>20% improvement </b>in solving complex problems and optimizing
+        business processes. Collaborating with cross-functional teams, I effectively communicated findings from Kaggle
+        datasets, enabling stakeholders to make informed decisions and contributing to a <b>10% increase</b> in desired
+        outcomes.
+      <h2 class="experience-sub-title">
+        Data Science Intern
+        <span class="experience-duration">May 2022 - August 2022</span>
+      </h2>
+      <p class="experience-company">Harvard University</p>
+      <p class="experience-description">
+        Developed Dr. Kane's Harvard Class <b>GOV 1005</b> with R coding language along with other student researchers.
+        <b>Four
+          weeks of training </b>under Dr. Kane culminated in an independent Data Analytics Research Project, where I
+        analysed
+        the impact of different economic indices on the population of a country.
+      </p>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#education'" />
+    </div>
+  </section>
+
+
+
+  <!-- Education -->
+  <section id="education">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Education & Activities</h1>
+    <div class="education-details-container">
+      <div class="about-containers">
+        <!-- Bachelor's Degree -->
+        <div class="details-container">
+          <h2 class="education-sub-title">Bachelors of Science</h2>
+          <p style="font-size: 1.1rem;">Computer Science</p>
+          <p style="font-size: 1.1rem;">Mathematics</p>
+          <p style="font-size: 1.3rem; margin-bottom: 1rem;"><b>Expected Graudation</b> : December 2026</p>
+          <p style="text-align: left" class="relevant-coursework"><b>Relevant Coursework:</b></p>
+          <p style="text-align: left;" class="courses">
+            CSE 2321 : Discrete Structures/Math
+            <br>CSE 2231 : Software Development and Design
+            <br>CSE 2221 : Software Components
+            <br>CSE 2123 : Data Structrues
+            <br>CSE 1223 : Programming in Java
+            <br>Math 2153 : Multivariable Calculus
+            <br>Math 1151 : Differential Calculus
+            <br>Math 1152 : Integral Calculus
+            <br>Physics 1250: Engineering Mechanics
+            <br>Physics 1251: Electricity and Magnetism
+          </p>
+          </p>
+        </div>
+
+        <!-- Activities Degree -->
+        <div class="details-container">
+          <h2 class="education-sub-title">Activites and Organizations</h2>
+          <ul>
+            <li>Competitive Programming Club</li>
+            <p class="desc">
+              As a memeber of the Competitive Programming Club at the Ohio State University, I was able delve deep into
+              the feel of advanced algorithms, and branhces of Mathematics.
+            </p>
+            <li> Big Data and Analytics Association</li>
+            <p class="desc">As a memeber of the Big Data and Analytics Association, I was able to gain deeper
+              understading and hands-on experience on different data analytics tool such as Tableau, PowerBI, AWS etc.
+            </p>
+            <li> Artifical Intelligence Club</li>
+            <p class="desc">The Artifical Intelligence club was one of the most important clubs in my careers. Through
+              their weekly meetings I was able to learn Machine Learning Libraries such as Sci-kit Learn, PyTorch,
+              Tensorflow.</p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'" />
+  </section>
+
+
+  <!----- Skills --->
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <!-- Software Development Skills -->
+        <div class="details-container">
+          <h2 class="skills-sub-title">Software Development</h2>
+          <div class="article-container">
+            <!-- Grouping by experience -->
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>20,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>C++</h3>
+                <p>20,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Java</h3>
+                <p>10,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>10,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>10,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Javascript</h3>
+                <p>3,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>1,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>React.js</h3>
+                <p>1,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Django</h3>
+                <p>3,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>> 3 years</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Data Science & Artificial Intelligence Skills -->
+        <div class="details-container">
+          <h2 class="skills-sub-title">Data Science &<br> Artificial Intelligence</h2>
+          <div class="article-container">
+            <!-- Grouping by experience -->
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Seaborn</h3>
+                <p>10,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Tableau</h3>
+                <p>> 2 years</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>PyTorch</h3>
+                <p>5,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Tensorflow</h3>
+                <p>5,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Scikit-Learn</h3>
+                <p>3,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>SQL</h3>
+                <p>3,000 lines</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>Docker</h3>
+                <p>
+                  < 1 year</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Skills icon" class="icon" />
+              <div>
+                <h3>AWS/Azure</h3>
+                <p>
+                  < 1 year</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="skills-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.jpg" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="skills-sub-title project-title">Project One</h2>
+          <p style="margin: 1rem;">Real Time Data Analytics Dashboard</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SadeekFarhan21/SuperStoreSales', '_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://superstoresales-farhan-sadeek.streamlit.app/', '_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="skills-sub-title project-title">Project Two</h2>
+          <p style="margin: 1rem;">Real Time Weather Application</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SadeekFarhan21/ClimaZen', '_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://climazen.netlify.app/', '_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="skills-sub-title project-title">Project Three</h2>
+          <p style="margin: 1rem;">Personal Portfolio Website</p>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/SadeekFarhan21/personal-website', '_blank')">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://farhan-sadeek.netlify.app/', '_blank')">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+
+  <!-- Contacts -->
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:sadeek.1@osu.com">sadeek.1@osu.edu</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/farhansadeekde110/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Farhan Sadeek. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
