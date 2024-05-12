@@ -593,5 +593,36 @@ br {
 
 .not-bold {
     font-weight: normal;
-    
+}
+
+/* NAVIGATION */
+.nav-links {
+    gap: 1rem; /* Reduce gap between links */
+}
+
+.logo {
+    font-size: 1.5rem; /* Adjust logo size */
+}
+
+#hamburger-nav {
+    display: block; /* Ensure hamburger menu icon is visible */
+}
+
+/* SECTIONS */
+section {
+    margin: 0 5%; /* Reduce margin */
+}
+
+.section-container {
+    gap: 2rem; /* Adjust gap */
+}
+
+/* CONTACT */
+#contact {
+    height: 60vh; /* Adjust height */
+}
+
+/* FOOTER */
+footer {
+    margin: 0 auto; /* Center footer horizontally */
 }
