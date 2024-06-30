@@ -5,8 +5,6 @@
     }
     .about-containers {
         flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
     }
     #contact,
     #projects {
@@ -50,8 +48,6 @@
     }
     .about-containers {
         margin-top: 0;
-        display: flex;
-        flex-direction: column;
     }
 }
 
@@ -75,8 +71,6 @@
     .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
-        display: flex;
-        flex-direction: column;
     }
     .contact-info-container {
         margin: 0;
