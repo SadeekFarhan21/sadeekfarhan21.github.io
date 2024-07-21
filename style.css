@@ -301,6 +301,8 @@ section {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .section-container {
@@ -385,6 +387,32 @@ article .icon {
 .education-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.education-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.education-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+#education {
+    position: relative;
+}
+
+.education-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
     font-size: 1.25rem;
     margin-bottom: 0.2rem;
 }
@@ -396,7 +424,7 @@ article .icon {
     align-items: center;
 }
 
-.article-container {
+.education-container {
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -405,7 +433,7 @@ article .icon {
     justify-content: space-around;
 }
 
-article {
+education {
     display: flex;
     width: 10rem;
     justify-content: space-around;
