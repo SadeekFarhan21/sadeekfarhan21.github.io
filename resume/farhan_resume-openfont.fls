@@ -1,18 +1,18 @@
 PWD c:\Users\Farhan\OneDrive\Documents\Github Repositories\sadeekfarhan21.github.io\resume
 INPUT C:\Users\Farhan\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Farhan\OneDrive\Documents\Github Repositories\sadeekfarhan21.github.io\resume\deedy_resume-openfont.tex
-OUTPUT deedy_resume-openfont.log
-INPUT .\deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT deedy-resume-openfont.cls
-INPUT .\deedy-resume-openfont.cls
-INPUT deedy-resume-openfont.cls
+INPUT c:\Users\Farhan\OneDrive\Documents\Github Repositories\sadeekfarhan21.github.io\resume\farhan_resume-openfont.tex
+OUTPUT farhan_resume-openfont.log
+INPUT .\farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT farhan-resume-openfont.cls
+INPUT .\farhan-resume-openfont.cls
+INPUT farhan-resume-openfont.cls
 INPUT C:\Users\Farhan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Farhan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\Farhan\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

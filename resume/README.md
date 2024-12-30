@@ -1,4 +1,4 @@
-Deedy-Resume
+farhan-Resume
 =========================
 
 A **one-page**, **two asymmetric column** resume template in **XeTeX** that caters particularly to an **undergraduate Computer Science** student.
@@ -18,10 +18,10 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 ## Preview
 
 ### OpenFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/OpenFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/farhandas/farhan-Resume/master/OpenFonts/sample-image.png)
 
 ### MacFonts
-![alt tag](https://raw.githubusercontent.com/deedydas/Deedy-Resume/master/MacFonts/sample-image.png)
+![alt tag](https://raw.githubusercontent.com/farhandas/farhan-Resume/master/MacFonts/sample-image.png)
 
 ## Dependencies
 
@@ -30,10 +30,10 @@ This template attempts to **look clean**, highlight **details**, be a **single p
 
 ## Availability
 
-1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/MacFonts/deedy_resume.pdf)
-2. OpenFonts version - [as a direct download](https://github.com/deedydas/Deedy-Resume/raw/master/OpenFonts/deedy_resume-openfont.pdf)
-3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/deedy-resume/sqdbztjjghvz#.U2H9Kq1dV18)
-4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/deedy-resume)
+1. MacFonts version - [as an online preview](http://debarghyadas.com/resume/debarghya-das-resume.pdf) and [as a direct download](https://github.com/farhandas/farhan-Resume/raw/master/MacFonts/farhan_resume.pdf)
+2. OpenFonts version - [as a direct download](https://github.com/farhandas/farhan-Resume/raw/master/OpenFonts/farhan_resume-openfont.pdf)
+3. **Overleaf**.com (formerly **WriteLatex**.com) (v1 fonts/colors changed) - [compilable online](https://www.writelatex.com/templates/farhan-resume/sqdbztjjghvz#.U2H9Kq1dV18)
+4. **ShareLatex**.com (v1 fonts changes) - [compilable online](https://www.sharelatex.com/templates/cv-or-resume/farhan-resume)
 
 ## Changelog
 ### v1.2
