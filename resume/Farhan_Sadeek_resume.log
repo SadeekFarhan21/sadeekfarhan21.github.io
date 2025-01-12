@@ -1,16 +1,20 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.12.30)  2 JAN 2025 17:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.12) (preloaded format=xelatex 2024.12.30)  11 JAN 2025 19:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/Farhan/OneDrive/Documents/Github Repositories/sadeekfarhan21.github
-.io/resume/farhan_resume-openfont.tex"
+.io/resume/Farhan_Sadeek_resume.tex"
 
 (c:/Users/Farhan/OneDrive/Documents/Github Repositories/sadeekfarhan21.github.i
-o/resume/farhan_resume-openfont.tex
+o/resume/Farhan_Sadeek_resume.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-03-30> (farhan-resume-openfont.cls
-Document Class: farhan-resume-openfont 2014/04/30 CV class
+L3 programming layer <2023-03-30> (Farhan_Resume_Class.cls
+
+LaTeX Warning: You have requested document class `Farhan_Resume_Class',
+               but the document class provides `Farhan_Sadeek_Resume'.
+
+Document Class: Farhan_Sadeek_Resume 2014/04/30 CV class
 (C:\Users\Farhan\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
 (C:\Users\Farhan\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
@@ -399,8 +403,8 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip59
 \f@nch@O@olf=\skip60
 \f@nch@O@orf=\skip61
-) (farhan_resume-openfont.aux)
-\openout1 = `farhan_resume-openfont.aux'.
+) (Farhan_Sadeek_resume.aux)
+\openout1 = `Farhan_Sadeek_resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
 LaTeX Font Info:    ... okay on input line 54.
@@ -464,9 +468,9 @@ LaTeX Font Info:    ... okay on input line 54.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring OFF on input line 54.
-(farhan_resume-openfont.out) (farhan_resume-openfont.out)
+(Farhan_Sadeek_resume.out) (Farhan_Sadeek_resume.out)
 \@outlinefile=\write3
-\openout3 = `farhan_resume-openfont.out'.
+\openout3 = `Farhan_Sadeek_resume.out'.
 
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
@@ -629,7 +633,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 182.
 [1
 
-] (farhan_resume-openfont.aux)
+] (Farhan_Sadeek_resume.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.5pt have occurred.
@@ -637,17 +641,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `farhan_resume-openfont.out' has not changed.
-
+Package rerunfilecheck Info: File `Farhan_Sadeek_resume.out' has not changed.
 (rerunfilecheck)             Checksum: 856DA19B2EBA03889B2F09F4B1D484C1;1992.
  ) 
 Here is how much of TeX's memory you used:
  12281 strings out of 411463
- 243674 string characters out of 5817803
+ 243575 string characters out of 5817803
  1894290 words of memory out of 5000000
  32358 multiletter control sequences out of 15000+600000
  516747 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,11n,136p,480b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,11n,136p,478b,568s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on farhan_resume-openfont.pdf (1 page).
+Output written on Farhan_Sadeek_resume.pdf (1 page).
